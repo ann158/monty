@@ -1,6 +1,5 @@
 #include "monty.h"
 
-execution_env_t execution_env = EXECUTION_ENV_INITIALIZER;
 
 /**
  * main - Entry point for Monty Interpreter
@@ -14,6 +13,5 @@ int main(int argc, char *argv[])
 	{
 		usage_error();
 	}
-
 	return (execute_operations(argv[1]));
 }
